@@ -1,0 +1,1 @@
+function y = ssum(x);% SSUM % ssum(x) computes the sum of all elements of x, regardless of% dimensionality%% Lawrence K. Cormack%% lkc back/inthe/day  wrote it% lkc 10/Jul/2012 made header commments y = max(x(:));y = sum(x(:));

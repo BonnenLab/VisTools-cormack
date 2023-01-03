@@ -1,0 +1,1 @@
+function y = mmin(x);% MMIN % mmin(x) computes the minimum of all elements of x, regardless of% dimensionality%% Lawrence K. Cormack%% lkc back/inthe/day  wrote it% lkc 10/Jul/2012 made header commments y = min(x(:));

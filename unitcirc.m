@@ -1,0 +1,1 @@
+function uc = unitcirc(n)% UNITCIRC% A = unitcirc(n) returns n coordinates around the unit circle%% Lawrence K. Cormack% 3/31/2000  lkc Wrote it.% 8/20/2012 lkc Rewrote it.uc = zeros(n, 2);myang = linspace(0, 2*pi, n+1); % last point is redundant, so pad by oneuc(:,1) = cos(myang(1:end-1));  % return n unique pointsuc(:,2) = sin(myang(1:end-1));
